@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<title>Cadastrar um novo Funcionário </title>
+	<link rel="stylesheet" type="text/css"
+		href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="resources/css/main.css">
+</head>
+
+<body>
+<a href="/funcionarios/index.html">Voltar</a>
+
+<div id="app">
+	<body>
+		<div id="app">
+			<h1>Cadastro de novo funcionario</h1>
+			<form id="register-form">
+				<div class="full-box">
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="E-mail do Funcionário">
+				</div>
+				<div class="half-box">
+					<label for="name">Nome</label>
+					<input type="text" name="name" id="name" placeholder="Nome do Funcionário">
+				</div>
+				<div class="half-box">
+					<label for="lastname">Sobrenome</label>
+					<input type="text" name="lastname" id="lastname" placeholder="Sobrenome do Funcionário">
+				</div>
+				<div class="half-box">
+					<label for="setor">Setor</label>
+					<input type="text" name="setor" id="setor" placeholder="Setor do Funcionário">
+				</div>
+				<div class="half-box">
+					<label for="salario">Salário</label>
+					<input type="number" name="salario" id="salario" placeholder="Salário do Funcionário">
+				</div>
+				<div class="half-box">
+					<label for="idade">Idade</label>
+					<input type="number" name="idade" id="idade" placeholder="Idade do Funcionário">
+				</div>
+				<div class="full-box">
+					<input type="submit" id="btn-submit" value="Cadastrar">
+				</div>
+				<p class="error-validation template"></p>
+			</form>
+		</div>		
+</div>
+	<script src="resources/js/vue.js"></script>
+	<script src="resources/js/axios.min.js"></script>
+	<script src="resources/js/cadastro-de-funcionario.js"></script>
+</body>
+</html>
